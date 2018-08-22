@@ -4,6 +4,7 @@ import com.lanif.lesson2.entity.User;
 import com.lanif.lesson2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -13,7 +14,7 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping("getUser")
-    public User getUser(Integer id) {
+    public User getUser(@RequestParam(value = "id", required = false, defaultValue = "1") Integer id) {
         User user = this.userService.getUserById(id);
         return user;
     }
