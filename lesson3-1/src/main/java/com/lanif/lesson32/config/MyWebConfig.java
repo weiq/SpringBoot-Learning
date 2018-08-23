@@ -1,4 +1,4 @@
-package com.lanif.lesson31.config;
+package com.lanif.lesson32.config;
 
 import freemarker.template.TemplateException;
 import org.springframework.context.annotation.Bean;

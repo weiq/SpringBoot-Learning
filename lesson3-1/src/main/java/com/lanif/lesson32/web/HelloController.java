@@ -1,4 +1,4 @@
-package com.lanif.lesson31.web;
+package com.lanif.lesson32.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

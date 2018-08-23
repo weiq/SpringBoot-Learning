@@ -1,4 +1,4 @@
-package com.lanif.lesson31;
+package com.lanif.lesson32;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Lesson31ApplicationTests {
+public class Lesson32ApplicationTests {
 
     @Test
     public void contextLoads() {
