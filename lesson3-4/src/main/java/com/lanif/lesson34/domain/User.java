@@ -7,6 +7,8 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
+    public User() {}
+
     public User(String name, Integer age) {
         this.name = name;
         this.age = age;
